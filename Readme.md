@@ -1,6 +1,22 @@
 # CovidGuard
 
-Mobile travel application that provide user the ability to book travel ticket and obtain covid information in countries around the world.
+Contact tracing using Bluetooth Low Energy (BLE) beacons, along with technologies such as Java and smartphones, is a powerful tool in effectively managing the spread of infectious diseases. By leveraging BLE technology, smartphones can detect and record the presence of nearby beacons, enabling the tracking of close contacts between individuals. This data, managed through Java-based applications on smartphones, allows for the rapid identification of potentially exposed individuals and the implementation of targeted interventions, such as quarantine or testing. Overall, contact tracing using these technologies is a key strategy in controlling the spread of diseases and protecting public health
+
+Here's how contact tracing using BLE beacons typically works:
+
+- Beacon Deployment: BLE beacons are deployed in various locations, such as public buildings, transportation hubs, and workplaces. These beacons are placed in strategic locations to ensure adequate coverage of the area.
+
+- User Interaction: Users who have a contact tracing app installed on their smartphones can opt-in to participate in the contact tracing program. The app continuously scans for nearby BLE beacons and records the identifiers of the beacons it detects.
+
+- Data Collection: When two smartphones with contact tracing apps installed come into close proximity (usually within a few meters) for a certain period of time, their apps exchange and record the identifiers of the beacons detected by the respective devices.
+
+- Data Storage: The recorded beacon identifiers, along with the timestamps and proximity information, are stored locally on the user's device in a secure and privacy-preserving manner. The data is typically encrypted to protect user privacy.
+
+- Contact Identification: If a user tests positive for an infectious disease, such as COVID-19, they can choose to share their contact tracing data with public health authorities. The authorities can then use this data to identify and notify individuals who may have been in close contact with the infected person.
+
+- Privacy Considerations: Contact tracing using BLE beacons is designed with privacy in mind. The system does not collect or store any personally identifiable information (PII) about the users. The beacon identifiers are random and change frequently to prevent tracking of individual users.
+
+- Notifications: If a user is identified as having been in close contact with an infected person, they may receive a notification from the contact tracing app advising them to self-isolate or seek medical advice.
 
 ## Table of Contents
 
