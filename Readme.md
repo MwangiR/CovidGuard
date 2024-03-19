@@ -8,7 +8,6 @@ Mobile travel application that provide user the ability to book travel ticket an
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Credits](#credits)
 - [Features](#features)
 
 ## Installation
@@ -58,11 +57,6 @@ The Contact Tracing App is designed to utilize Bluetooth Low Energy (BLE) techno
 3. Install dependencies (`npm install`).
 4. Run the Android application on an emulator or physical device.
 
-## Credits
-
-- [Your Name]
-- [Your Team Members]
-
 ## Features
 
 - Utilizes BLE technology for contact tracing.
@@ -98,11 +92,11 @@ The Contact Tracing App is designed to utilize Bluetooth Low Energy (BLE) techno
 
 ## License
 
-This project is licensed under the [License Name] - see the LICENSE.md file for details.
+This project is licensed under the [MIT] - see the LICENSE.md file for details.
 
 ## Questions
 
-For any questions or support, please contact [Your Email Address].
+For any questions or support
 
 ```
 
