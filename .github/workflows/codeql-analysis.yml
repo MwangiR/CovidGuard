@@ -28,8 +28,8 @@ jobs:
         with:
           languages: ${{ matrix.language }}
 
-      - name: Autobuild
-        uses: github/codeql-action/autobuild@v2
+      - name: Build Java code
+        run: /opt/hostedtoolcache/CodeQL/2.16.4/x64/codeql/java/tools/autobuild.sh
 
       # ℹ️ Command-line programs to run using the OS shell.
       # 📚 https://git.io/JvXDl
