@@ -1,15 +1,22 @@
-# Advertir-login
-
-[![Android CI](https://github.com/MwangiR/advertir-login/actions/workflows/main.yml/badge.svg)](https://github.com/MwangiR/advertir-login/actions/workflows/main.yml) [![CodeQL](https://github.com/MwangiR/CovidGuard/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/MwangiR/advertir-login/actions/workflows/codeql-analysis.yml) [![Snyk](https://github.com/yogeshvar/advertir-login/actions/workflows/snyk.yml/badge.svg)](https://github.com/yogeshvar/advertir-login/actions/workflows/snyk.yml)
+# CovidGuard
 
 Mobile travel application that provide user the ability to book travel ticket and obtain covid information in countries around the world.
+
+## Table of Contents
+
+- [Description](#description)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Credits](#credits)
+- [Features](#features)
 
 ## Installation
 
 Clone this repository and import into **Android Studio**
 
 ```bash
-git clone https://github.com/MwangiR/advertir-login
+git clone https://github.com/MwangiR/CovidGuard
 ```
 
 ## Instructions to run the app (Method 1)
@@ -24,7 +31,79 @@ git clone https://github.com/MwangiR/advertir-login
 
 ```bash
 gradlew build
-gradlew install
+gradlew install# Contact Tracing App
+```
+
+## Description
+
+The Contact Tracing App is designed to utilize Bluetooth Low Energy (BLE) technology for contact tracing, helping to track and prevent the spread of infectious diseases such as COVID-19.
+
+## Screenshots
+
+![Sample User Data](./screenshots/1.png)
+![Sample Collection of Single User Data](./screenshots/2.png)
+
+## Technologies Used
+
+- Android SDK
+- BLE Framework
+- Firebase Authentication
+- Firestore
+- Java
+
+## Installation
+
+1. Clone the repository.
+2. Set up Firebase project and add the google-services.json file to the Android app.
+3. Install dependencies (`npm install`).
+4. Run the Android application on an emulator or physical device.
+
+## Credits
+
+- [Your Name]
+- [Your Team Members]
+
+## Features
+
+- Utilizes BLE technology for contact tracing.
+- Stores user-specific data in Firestore.
+- Registers devices for notifications and stores FCM tokens in Firestore.
+
+## Usage Information
+
+1. Clone the repository.
+2. Set up Firebase project and add the google-services.json file to the Android app.
+3. Install dependencies (`npm install`).
+4. Run the Android application on an emulator or physical device.
+5. Ensure Bluetooth is enabled on the device to enable contact tracing.
+
+## Suggested Future Development
+
+- Implement more advanced contact tracing algorithms.
+- Enhance user interface for better user experience.
+
+## Contribution Guidelines
+
+- Fork the repository.
+- Create a new branch (`git checkout -b feature/xyz`).
+- Make your changes.
+- Commit your changes (`git commit -am 'Add new feature'`).
+- Push to the branch (`git push origin feature/xyz`).
+- Create a new Pull Request.
+
+## Test Instructions
+
+- Use the app in various scenarios to ensure accurate contact tracing.
+- Test Bluetooth connectivity and data transmission.
+
+## License
+
+This project is licensed under the [License Name] - see the LICENSE.md file for details.
+
+## Questions
+
+For any questions or support, please contact [Your Email Address].
+
 ```
 
 ## Basic Features of the App:
@@ -37,7 +116,7 @@ gradlew install
 
 ## Screenshots of Application
 
-<img src="https://github.com/MwangiR/advertir-login/blob/master/readme_images/Screenshot_1636114577.png" width="30%" height="30%"/> <img src="https://github.com/MwangiR/advertir-login/blob/master/readme_images/Screenshot_1636114686.png" width="30%" height="30%"/> <img src="https://github.com/MwangiR/advertir-login/blob/master/readme_images/Screenshot_1636114702.png" width="30%" height="30%"/>
+<img src="https://github.com/MwangiR/CovidGuard/blob/master/readme_images/Screenshot_1636114577.png" width="30%" height="30%"/> <img src="https://github.com/MwangiR/CovidGuard/blob/master/readme_images/Screenshot_1636114686.png" width="30%" height="30%"/> <img src="https://github.com/MwangiR/CovidGuard/blob/master/readme_images/Screenshot_1636114702.png" width="30%" height="30%"/>
 
 ## Contributing
 
@@ -46,3 +125,4 @@ gradlew install
 3. Commit your changes (git commit -m 'Add some feature')
 4. Push your branch (git push origin my-new-feature)
 5. Create a new Pull Request
+```
